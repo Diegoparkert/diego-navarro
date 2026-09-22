@@ -3,7 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diego Navarro | Portafolio</title>
+<title>Diego Navarro | Editor de Video</title>
+<meta name="description" content="Diego Navarro — edición de video para creadores y marcas. Videos largos, shorts y reels con ritmo y retención.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -14,65 +18,140 @@
     <nav>
         <a href="#videos">Videos</a>
         <a href="#shorts">Shorts</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto" class="nav-cta">Escríbeme</a>
     </nav>
 </header>
 
 <section class="hero">
-    <h2>Editor de Videos Creativo</h2>
-    <p>Shorts virales, reels y contenido de alto impacto.</p>
+    <p class="hero-eyebrow">Edición de video</p>
+    <h2>Corto, ritmo y retención en cada video que edito.</h2>
+    <p class="hero-sub">Trabajo con creadores de YouTube, streamers y marcas que necesitan que su contenido se vea y se sienta profesional, del primer al último segundo.</p>
+    <div class="hero-actions">
+        <a href="#videos" class="btn-primary">Ver mi trabajo</a>
+        <a href="#contacto" class="btn-ghost">Hablemos de tu proyecto</a>
+    </div>
 </section>
 
 <section id="videos">
-    <h2>Videos Largos</h2>
-<div class="videos-grid">
-
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/-q3pU89CTUg?autoplay=1&mute=1&loop=1&playlist=-q3pU89CTUg"></iframe>
+    <div class="section-head">
+        <h2>Videos largos</h2>
+        <p>Edición completa: corte, ritmo, color y sonido.</p>
     </div>
+    <div class="videos-grid">
 
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/qzl_jOHZj_Q?autoplay=1&mute=1&loop=1&playlist=qzl_jOHZj_Q"></iframe>
-    </div>
+        <article class="video-container" data-video-id="Z37dOSuAqd0">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/Z37dOSuAqd0/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/Z37dOSuAqd0/hqdefault.jpg'" alt="Miniatura del video 1" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir video"><i class="fas fa-play"></i></button>
+            </div>
+            <div class="card-info">
+                <h3>Video Para el Canal ElArchivodetommy</h3>
+                <p>Edición de ritmo, imagenes, videos y voz.</p>
+            </div>
+        </article>
 
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/KmQynXEb7dQ?autoplay=1&mute=1&loop=1&playlist=KmQynXEb7dQ"></iframe>
+        <article class="video-container" data-video-id="mZL4gsOrgL0">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/mZL4gsOrgL0/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/mZL4gsOrgL0/hqdefault.jpg'" alt="Miniatura del video 2" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir video"><i class="fas fa-play"></i></button>
+            </div>
+            <div class="card-info">
+                <h3>Video de prueba para el canal: Danna Lucia</h3>
+                <p>Estructura narrativa, efectos, transiciones y mezcla de audio.</p>
+            </div>
+        </article>
+
+        <article class="video-container" data-video-id="liLUxgKlM44">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/liLUxgKlM44/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/liLUxgKlM44/hqdefault.jpg'" alt="Miniatura del video 3" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir video"><i class="fas fa-play"></i></button>
+            </div>
+            <div class="card-info">
+                <h3>Nombre del proyecto 3</h3>
+                <p>Descripción corta de qué hiciste en este video.</p>
+            </div>
+        </article>
+
     </div>
-</div>
 </section>
 
 <section id="shorts">
-    <h2>Shorts</h2>
+    <div class="section-head">
+        <h2>Shorts &amp; Reels</h2>
+        <p>Formato vertical pensado para retener desde el segundo uno.</p>
+    </div>
     <div class="shorts-grid">
 
-<!-- Short 1 -->
-    <div class="short">
-        <iframe src="https://www.youtube.com/embed/tpLF1cWI0NI?autoplay=1&mute=1&loop=1&playlist=tpLF1cWI0NI"></iframe>
+        <article class="short" data-video-id="tpLF1cWI0NI">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/tpLF1cWI0NI/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/tpLF1cWI0NI/hqdefault.jpg'" alt="Miniatura del short 1" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir short"><i class="fas fa-play"></i></button>
+            </div>
+        </article>
+
+        <article class="short" data-video-id="oB0dqQ_9WWQ">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/oB0dqQ_9WWQ/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/oB0dqQ_9WWQ/hqdefault.jpg'" alt="Miniatura del short 2" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir short"><i class="fas fa-play"></i></button>
+            </div>
+        </article>
+
+        <article class="short" data-video-id="fP7H2BrVKnA">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/fP7H2BrVKnA/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/fP7H2BrVKnA/hqdefault.jpg'" alt="Miniatura del short 3" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir short"><i class="fas fa-play"></i></button>
+            </div>
+        </article>
+
+        <article class="short" data-video-id="V73dUiTQtpI">
+            <div class="media-frame">
+                <img class="thumb" src="https://img.youtube.com/vi/V73dUiTQtpI/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/V73dUiTQtpI/hqdefault.jpg'" alt="Miniatura del short 4" loading="lazy">
+                <button class="play-btn" aria-label="Reproducir short"><i class="fas fa-play"></i></button>
+            </div>
+        </article>
+
     </div>
+</section>
 
-    <!-- Short 2 -->
-    <div class="short">
-        <iframe src="https://www.youtube.com/embed/oB0dqQ_9WWQ?autoplay=1&mute=1&loop=1&playlist=oB0dqQ_9WWQ"></iframe>
+<section id="servicios">
+    <div class="section-head">
+        <h2>En qué te puedo ayudar</h2>
     </div>
-
-    <!-- Short 3 -->
-    <div class="short">
-        <iframe src="https://www.youtube.com/embed/fP7H2BrVKnA?autoplay=1&mute=1&loop=1&playlist=fP7H2BrVKnA"></iframe>
+    <div class="servicios-grid">
+        <div class="servicio-card">
+            <h3>Edición de video largo</h3>
+            <p>Corte, ritmo, corrección de color y mezcla de audio para YouTube y contenido de marca.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Shorts y reels</h3>
+            <p>Recortes verticales pensados para retener audiencia en TikTok, Reels y Shorts.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Motion graphics</h3>
+            <p>Animaciones de texto, transiciones y elementos gráficos a medida.</p>
+        </div>
+        <div class="servicio-card">
+            <h3>Subtítulos y sonido</h3>
+            <p>Subtítulos dinámicos, limpieza de audio y música con licencia libre.</p>
+        </div>
     </div>
-
-    <!-- Short 4 -->
-    <div class="short">
-        <iframe src="https://www.youtube.com/embed/V73dUiTQtpI?autoplay=1&mute=1&loop=1&playlist=V73dUiTQtpI"></iframe>
-
+    <div class="tools">
+        <span>Premiere Pro</span>
+        <span>After Effects</span>
+        <span>CapCut</span>
     </div>
 </section>
 
 <section id="contacto">
-    <h2>Trabajemos Juntos</h2>
+    <div class="section-head">
+        <h2>Trabajemos juntos</h2>
+        <p>Cuéntame de tu proyecto y te respondo en menos de 24 horas.</p>
+    </div>
 
     <div class="redes">
 
-        <a href="https://wa.me/51964890613" target="_blank">
+        <a href="https://wa.me/51964890613?text=Hola%20Diego%2C%20vi%20tu%20portafolio%20y%20quiero%20hablar%20de%20un%20proyecto" target="_blank">
             <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
 
@@ -90,6 +169,10 @@
 
     </div>
 </section>
+
+<footer>
+    <p>Diego Navarro — Edición de video</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
